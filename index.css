@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(196, 196, 196);
+}
+.header {
+  width: 100vw;
+  padding: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.header .title {
+  font-size: 10vw;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+}
+
+.bar {
+  width: 10vw;
+  height: 105vh;
+  background-color: #1a1a1a;
+}
+.counter {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 1000;
+  color: #bcbcc4;
+  padding: 4vw;
+  font-size: 20vw;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  transform: translateX(-100%);
+}
